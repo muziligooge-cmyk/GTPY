@@ -23,6 +23,10 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
         CheckConfigStatus();
+    }
+
+    private void OnLoaded(object sender, RoutedEventArgs e)
+    {
         NavigateHome(null, null);
     }
 

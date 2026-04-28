@@ -6,7 +6,7 @@
         mc:Ignorable="d"
         Title="BlueGlass Mihomo" Height="680" Width="950"
         WindowStartupLocation="CenterScreen" Background="{StaticResource AppBackground}"
-        AllowsTransparency="True" WindowStyle="None">
+        AllowsTransparency="False" WindowStyle="None" Loaded="OnLoaded">
 
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="50" GlassFrameThickness="0" CornerRadius="0"/>
