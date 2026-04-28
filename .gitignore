@@ -1,0 +1,17 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# App Specific
+logs/
+config/config.yaml
+core/mihomo.exe
+core/*.zip
+core/*.exe
+
+# VS Code
+.vscode/
